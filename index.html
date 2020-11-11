@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />  
+        <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+        <link
+        rel="stylesheet"
+        href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css"
+        type="text/css"
+        />
+        <script src="script.js" defer></script>
+    </head>
+    <style>
+        body{
+            margin: 0;
+        }
+        #map{
+            position: relative;
+            width:100vw;
+            height:100vh;
+        }
+        .developer{
+            position: absolute;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 100;
+            bottom: 0;
+            right: 0;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    </style>
+    <body>
+        <div id='map'>
+        <div class="developer">Developed by Code With Akky 💓💓 </div>
+        </div>
+    </body>
+</html>
